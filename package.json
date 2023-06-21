@@ -4,13 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build:tailwinds": "tailwind build src/style.css -o public/style.css"
+    "build:tailwinds": "tailwind build src/input.css -o dist/output.css"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Tyler-Hilbert/WebsiteGenerator.git"
   },
   "devDependencies": {
-    "tailwindcss": "^2.1.4"
+    "tailwindcss": "^2.2.19"
   }
 }
