@@ -32074,11 +32074,6 @@ video {
   color: rgba(255, 255, 255, var(--tw-text-opacity));
 }
 
-.btn-white {
-  --tw-bg-opacity: 1;
-  background-color: rgba(247, 247, 247, var(--tw-bg-opacity));
-}
-
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
