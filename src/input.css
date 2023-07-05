@@ -7,7 +7,3 @@
 .btn {
   @apply shadow-md py-3 px-6 rounded-md transition duration-300;
 }
-
-.btn-purple {
-  @apply bg-purple-400 text-white;
-}
