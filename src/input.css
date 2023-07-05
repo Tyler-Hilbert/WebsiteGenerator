@@ -9,5 +9,5 @@
 }
 
 .btn-purple {
-  @apply bg-bookmark-purple text-white;
+  @apply bg-purple-400 text-white;
 }
