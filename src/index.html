@@ -216,17 +216,24 @@
         <section class="py-20">
           <div class="container">
             <div class="sm:w-3/4 lg:w-2/4 mx-auto">
-              <p id="WhyYouShouldJoin" class="font-light text-center mb-8"></p>
-              <h1 class="text-3xl text-center">Join The Waitlist</h1>
-              <div class="flex flex-col sm:flex-row gap-6 mt-8">
-                <input
-                  type="text"
-                  placeholder="Enter your email address"
-                  class="focus:outline-none flex-1 px-2 py-3 rounded-md text-black"
-                />
-                <button type="button" class="btn bg-emerald-700 text-white hover:bg-slate-50 hover:text-black">
-                  Get Started
-                </button>
+              <p id="WhyYouShouldJoin" class="font-light text-center mb-2"></p>
+              <h1 class="text-3xl text-center mb-2">Join The Waitlist</h1>
+                <div class="pb-20">
+                  <form
+                    action="https://formspree.io/f/mknlnjkr"
+                    method="POST"
+                    class="flex flex-col sm:flex-row gap-6"
+                  >
+                    <input
+                      type="text"
+                      placeholder="Enter your email address"
+                      class="focus:outline-none flex-1 px-2 py-3 rounded-md text-black"
+                      name="email"
+                    />
+                    <button type="submit" class="btn bg-emerald-700 text-white hover:bg-white hover:text-black">
+                      Get Started
+                    </button>
+                  </form>
               </div>
             </div>
           </div>
